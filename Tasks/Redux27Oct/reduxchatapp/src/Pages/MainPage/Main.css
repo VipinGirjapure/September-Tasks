@@ -1,0 +1,116 @@
+
+*{
+    box-sizing: border-box;
+}
+.mainPage {
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: ; */
+    /* overflow: hidden; */
+}
+.mainPageContainer {
+    background-color: #9fcdf2;
+  /* border: 5px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.leftBoxMain {
+  width: 25%;
+  /* background-color: ; */
+  border: 1px solid #12558a;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 20px 0; */
+}
+
+.rightBoxMain {
+  height: 100%;
+  width: 75%;
+  /* border: 1px solid; */
+
+}
+.chatBoxProfile {
+  height: 60px;
+  /* position: fixed; */
+  background-color: #9fcdf2;
+  width: 100%;
+  border: 1px solid #12558a;
+  display: flex;
+  justify-content: flex;
+
+  align-items: center;
+  padding: 0 5px;
+
+}
+.chatBox {
+  
+  height:calc(99vh - 140px);
+  border: 1px solid #12558a;
+  overflow-y: scroll;
+}
+.chatBoxInput {
+  width: 100%;
+}
+.chatBoxButton {
+  border: 1px solid #12558a;
+  padding: 1rem;
+  cursor: pointer;
+ 
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90px;
+  height: 53px;
+  font-size: large;
+  color: #12558a;
+}
+.chatBoxButton:hover {
+  border: 1px solid #12558a;
+  background-color: #12558a;
+  color: #9fcdf2;
+  padding: 1rem;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90px;
+  font-size: large;
+}
+.chatTexts {
+  text-align: left;
+}
+.sendItem {
+  background-color: white;
+  min-width: 100px;
+  padding: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-size: large;
+  color: #9fcdf2;
+  border-radius: 6px;
+  border: 0.5px solid #9fcdf2;
+}
+.receivedItem {
+  background-color: white;
+  /* width: fit-content; */
+  min-width: 50px;
+
+  padding: 5px;
+  margin: 5px;
+  padding: 5px;
+  /* font-size: large; */
+  color: #12558a;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+/* #12558a */

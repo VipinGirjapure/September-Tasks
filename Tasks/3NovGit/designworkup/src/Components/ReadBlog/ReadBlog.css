@@ -1,0 +1,129 @@
+.jobseeker-section {
+  min-height: 30vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.jobseeker-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  text-justify: inter-word;
+  max-width: 60%;
+}
+@media screen and (max-width: 1000px) {
+  .jobseeker-data {
+    min-width: 300px;
+  }
+}
+
+.jobseeker-says {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.jobseeker-data-child {
+  color: #87837e;
+}
+
+.jobseeker-cards-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .jobseeker-cards-div {
+    flex-direction: column;
+  }
+}
+
+.jobseeker-card {
+  min-height: 300px;
+  width: 300px;
+  /* background-color: antiquewhite; */
+  border: 2px solid #eeeeef;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.jobseeker-card-row1 {
+  width: 30%;
+}
+
+.jobseeker-images {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.jobseeker-card-row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.jobseeker-tend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jobseeker-designer {
+  color: #b1aeac;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.yellow-star {
+  color: #e4a342;
+}
+
+.blog-card-row1 {
+  width: 100%;
+  height: 200px;
+  background-image: url("./work.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.blog-card-row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.blog-para{
+    color:#8b8783
+}
+
+.blog-card-row3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fd867f;
+
+}

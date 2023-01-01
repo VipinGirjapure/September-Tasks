@@ -1,0 +1,63 @@
+.dashboardPage{
+    background-color: beige;
+    height: 80vh;
+}
+.dashboardFirstBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.dashboardFirstBoxItem{
+   margin: 5px;
+   border:2px solid orange;
+   padding: 15px;
+   font-size: 18px;
+   font-weight: 500;
+cursor: pointer;
+box-shadow: 3px 3px 5px black;
+}
+.AllPostsContainer{
+    /* border: 2px solid orange; */
+    min-height: 200px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.post{
+    /* background-color:salmon; */
+    height: 300px;
+    /* width: 200px; */
+    border: 1px solid orange;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 5px 15px;
+    padding: 2px ;
+    border-radius: 5px;
+
+}
+/* .Modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    width: 400px;
+    flex-direction: column;
+    background-color: beige;
+} */
+.Modal{
+    height: 358px;
+    width: 287px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px 5px;
+    border: 5px solid orange !important;
+    border-radius: 18px;
+    font-weight: bolder;
+}

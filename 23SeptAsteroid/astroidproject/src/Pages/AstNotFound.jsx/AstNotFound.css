@@ -1,0 +1,11 @@
+.astNotFoundContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.astNotFoundItem{
+    font-size: x-large;
+    text-align: center;
+
+}

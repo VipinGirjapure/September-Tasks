@@ -1,0 +1,88 @@
+#footer {
+  background-color: #003b73;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+  color: #bfd7ed;
+  height: 20vh;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#footer-logo {
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#footer-item {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+#footer-item > * {
+  margin: 1px 20px;
+}
+.footer-about-us {
+  cursor: pointer;
+}
+.footer-contact-us {
+  cursor: pointer;
+}
+.footer-about-us:hover:after {
+  content: "Hi I am Vipin S. Girjapure";
+  position: absolute;
+  right: 5%;
+}
+.footer-contact-us:hover:after {
+  content: "9876543210";
+  position: absolute;
+  right: 5%;
+}
+
+#footer-social {
+  font-size: 30px;
+  width: 100%;
+}
+
+#footer-social > * {
+  margin: 0 3px;
+}
+#footer-social > *:hover {
+    margin: 0 3px;
+  background-color: #bfd7ed;
+  color: #003b73;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: #bfd7ed;
+  color: #003b73;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  font-size: small;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+@media screen and (max-width: 768px) {
+  #footer {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer-item {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+  }
+}

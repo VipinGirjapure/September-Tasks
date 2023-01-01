@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.Courses-div {
+  min-height: 40vh;
+  background-color: #f8f8ff;
+}
+
+.Courses-Membership-heading {
+  color: #e6636e;
+}
+
+.Courses-Student-heading {
+  color: black;
+  font-size: 30px;
+}
+
+.Courses-Student-para {
+  color: black;
+  font-size: 14px;
+}
+
+.Courses-upper-div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  padding-top: 50px;
+  padding-left: 100px;
+
+  padding-right: 100px;
+}
+
+.courses-data-childdiv {
+  display: flex;
+  align-items: space-between;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.courses-btn {
+  background-color: #ff7569;
+  color: white;
+  padding: 5px;
+}
+
+.Courses-Cards {
+  min-width: 90%;
+  min-height: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Courses-Card {
+  width: 300px;
+  min-height: 370px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Courses-Card-detail1 {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220523/pngtree-coworking-horizontal-vector-illustration-with-group-of-creative-employees-discuss-common-image_1370078.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+  border-radius: 5px;
+}
+
+.Courses-Card-detail2 {
+  color: #878796;
+}
+
+.Courses-Card-detail3 {
+  color: black;
+  text-align: center;
+}
+
+.Courses-Card-detail4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+.courses-star {
+  color: #f5b70a;
+}
+.wrt24 {
+  color: #ff776c;
+  font-weight: bold;
+}
+
+.wrt-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Courses-Card-image{
+    background-image: url('https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=613');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+    margin: 5px
+}
+
+.Courses-Card-detail5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+.User-Name{
+    margin: 5px;
+}
+
+.Courses-Card-btn{
+    background-color: 
+    #edeef0;
+    color:#8a97a6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1000px) {
+  .Courses-upper-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Courses-Cards{
+    display: flex;
+    flex-direction: column;
+  }
+ .Courses-Student-para{
+  display: flex;
+ } 
+ .Courses-Student-para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+}

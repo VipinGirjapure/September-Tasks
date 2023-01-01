@@ -1,0 +1,58 @@
+.more-than-note-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  width: 100%;
+  background-color: #e8f7fe;
+}
+.more-than-note-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.more-than-note-heading {
+  font-size: 45px;
+  font-weight: bolder;
+  width: 70%;
+  text-align: center;
+  line-height: 52px;
+  margin-bottom: 15px;
+}
+.more-than-note-text {
+  color: gray;
+  font-size: 19px;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+.more-than-note-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    
+}
+.more-than-note-blue-button{
+  padding: 20px 5px ;
+    width: 150px;
+    background-color: #001439;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.more-than-note-watch-video{
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}

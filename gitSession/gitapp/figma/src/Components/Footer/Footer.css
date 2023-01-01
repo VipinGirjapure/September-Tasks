@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-div {
+  max-width: 100vw;
+  min-height: 30vh;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 900px) {
+  .footer-div {
+    font-size: 12px;
+    display: flex;
+    align-items: flex-start ;    
+    justify-content: space-between;
+    flex-direction: column;
+    
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  
+
+  
+  
+}
+
+span {
+  font-weight: bold;
+}
+
+.footer-span-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-span-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-li {
+  list-style-type: none;
+}
+
+.footer-input {
+  border: none;
+  outline: none;
+  width: 70%;
+  background-color: transparent;
+  padding: 2px;
+}
+
+.footer-input-div {
+  height: 40px;
+
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+  width: 70%;
+  background-color: #fff0e9;
+}
+
+.footer-input-btn {
+  background-image: url("./button.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+.footer-childdiv-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.upskill-heading {
+  font-size: 30px;
+}
+
+.footer-childdiv-1 {
+  text-align: center;
+}
+.footer-childdiv-2 {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    .footer-childdiv-2, .footer-childdiv-3, .footer-childdiv-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+
+    }
+}

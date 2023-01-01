@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Dom Manipulation</title>
+  </head>
+  <body>
+    <div id="header">Manipulation of DOM with Window and Document objects</div>
+    <!-- container 1 -->
+    <div id="page">
+      <div class="container">
+        <h1 id="mainHeading1">Main Heading</h1>
+        <p class="note">
+          Change the color of heading with use of "getElementById"
+        </p>
+        <input type="text" id="inputForMainHeading1" placeholder="type color" />
+        <button class="button" onclick="heading1ButtonFunc()">
+          Change Color
+        </button>
+      </div>
+      <!-- container 1 -->
+      <!-- container 2 -->
+
+      <div class="container">
+        <h1 class="mainHeading2">Main Heading 2</h1>
+        <p class="note">
+          Change the background color of heading with use of
+          "getElementsByClassName"
+        </p>
+        <input
+          type="text"
+          class="inputForMainHeading2"
+          placeholder="type color"
+        />
+        <button class="button" onclick="heading2ButtonFunc()">
+          Change Color
+        </button>
+      </div>
+      <!-- container 2 -->
+      <!-- container 3 -->
+
+      <div class="container">
+        <h1>Main Heading 3</h1>
+        <p class="note">
+          Change the color of heading with use of "getElementsByTagName"
+        </p>
+        <input type="text" placeholder="type color" />
+        <button class="button" onclick="heading3ButtonFunc()">
+          Change Color
+        </button>
+      </div>
+      <!-- container 3 -->
+      <!-- container 4 -->
+
+      <div class="container" id="container4">
+        <h1></h1>
+        <button class="button" onclick="heading4ButtonFunc()">
+          Click to see component
+        </button>
+      </div>
+      <!-- container 4 -->
+      <!-- container 5 -->
+
+      <div class="container">
+        <p class="note">Change the text on hovering --></p>
+        <h2
+          onmouseover="container5_MouseOverFunc(this)"
+          onmouseout="container5_MouseOutFunc(this)"
+        >
+          Main Heading 5
+        </h2>
+      </div>
+      <!-- container 5 -->
+      <!-- container 6 -->
+
+      <div class="container">
+        <h1></h1>
+
+        <p id="container6_note"></p>
+        <button
+          class="button"
+          id="container6_button"
+          onclick="heading6ButtonFunc()"
+        >
+          Display Date
+        </button>
+      </div>
+      <!-- container 6 -->
+      <!-- container 7 -->
+
+      <div class="container" id="container7">
+        <p class="note" id="container7_note">
+          window.innerHeight and window.innerWidth
+        </p>
+
+        <button
+          class="button"
+          id="container7_button"
+          onclick="heading7ButtonFunc()"
+        >
+          Click Here
+        </button>
+      </div>
+      <!-- container 7 -->
+      <!-- container 8 -->
+
+      <div class="container" id="container8">
+        <p class="note" id="container8_note">screen.height and screen.height</p>
+
+        <button
+          class="button"
+          id="container8_button"
+          onclick="heading8ButtonFunc()"
+        >
+          Click Here
+        </button>
+      </div>
+      <!-- container 8 -->
+      <!-- container 9 -->
+
+      <div class="container" id="container9">
+        <p class="note" id="container9_note">
+          Click button to see path and port of current window
+        </p>
+
+        <button
+          class="button"
+          id="container9_button"
+          onclick="heading9ButtonFunc()"
+        >
+          Click Here
+        </button>
+      </div>
+      <!-- container 9 -->
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

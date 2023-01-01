@@ -1,0 +1,19 @@
+.detailsHeading{
+    font-size: 33px;
+    font-family: math;
+}
+.detailsContainer{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: x-large;
+font-weight: bold;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+span,a{ 
+    color: dodgerblue;
+    font-size: 28px;
+    margin-left: 12px;
+    text-decoration: none;
+}

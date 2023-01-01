@@ -1,0 +1,24 @@
+.header-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ 
+  }
+  .teacher{
+    color:red;
+   font-size: 20px;
+   margin: 0; 
+  }
+  .our{
+    font-size: 50px;
+    margin-bottom: 2px;
+    margin-top: 0;
+    font-weight: 100;
+  }
+  .paraga{
+    font-size: 30px;
+  }
+  
+  

@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Poppins:wght@200&family=Sofia&family=Square+Peg&display=swap");
+body {
+  background: #e5e5e5;
+  height: 100vh;
+  margin: auto;
+  max-width: 1440px;
+}
+input {
+  height: 62px;
+  width: 369px;
+  border: none;
+  border-radius: 8px;
+
+  background: #f0efff;
+
+  position: relative;
+  left: 59%;
+
+  color: #a7a3ff;
+  margin: 5px 0;
+}
+@media screen and (max-width: 480px) {
+  input {
+    height: 62px;
+    width: 95%;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    background: #f0efff;
+    left: 8px;
+    top: 0px;
+
+    color: #a7a3ff;
+    margin: 5px 0;
+    position: relative;
+  }
+}
+@media screen and (max-width: 480px) {
+  .signUpForm {
+    height: max-content;
+
+    width: 100%;
+
+    position: absolute;
+    top: 38%;
+  }
+}
+
+::placeholder {
+  color: #a7a3ff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  left: 7.05%;
+  /* right: 70.73%; */
+  top: 32.26%;
+  /* bottom: 30.65%; */
+  opacity: 0.8;
+}
+button {
+  height: 59px;
+  width: 372px;
+  position: relative;
+  left: 59%;
+  margin-top: 7px;
+  border-radius: 9px;
+  border: none;
+  background: #4d47c3;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: white;
+}
+@media screen and (max-width: 480px) {
+  button {
+    height: 59px;
+    width: 97%;
+    position: absolute;
+    left: 5px;
+    border-radius: 9px;
+    border: none;
+    background: #4d47c3;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+  }
+}
+
+span {
+  color: blue;
+}
+.signHeading {
+  height: 45px;
+  width: 113px;
+  position: relative;
+  left: 60%;
+  /* top: 80px; */
+  border-radius: nullpx;
+
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+}
+@media screen and (max-width: 480px) {
+  .signHeading {
+    display: none;
+  }
+}
+.logo {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 16px;
+  width: 100px;
+  position: relative;
+  left: 4%;
+  top: 19px;
+  border-radius: nullpx;
+}
+/* sideInfo */
+.sideInfoHeading {
+  position: absolute;
+  width: 252px;
+  height: 75px;
+  left: 81px;
+  top: 170px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+
+  color: #000000;
+}
+/* .sideInfoContainer{} */
+@media screen and (max-width: 480px) {
+  .sideInfoHeading {
+    position: absolute;
+    /* width: 252px; */
+    height: 75px;
+    left: 5px;
+    top: 42px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 75px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+}
+.sideInfoLineTwo {
+  height: 53px;
+  width: 396px;
+  position: absolute;
+  left: 79px;
+  top: 277px;
+  border-radius: nullpx;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+/* @media screen and (max-width: 480px) 
+  .
+} */
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .sideInfoLineTwo {
+    left: 62px;
+  }
+  .sideInfoHeading {
+    left: 59px;
+    top: 185px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sideInfoLineTwo {
+    height: 53px;
+    width: auto;
+    position: absolute;
+    left: 5px;
+    top: 121px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+}
+.sideInfoNote {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  width: 321px;
+  height: 24px;
+  left: 103px;
+  top: 358px;
+}
+@media screen and (max-width: 480px) {
+  .sideInfoNote {
+    height: 53px;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    top: 190px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    /* line-height: 53px; */
+    /* letter-spacing: 0em; */
+    text-align: left;
+    color: #000000;
+  }
+}
+
+/* social */
+.socialHeading {
+  position: relative;
+  width: 130px;
+  height: 24px;
+  left: 69%;
+  top: 27px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #b5b5b5;
+}
+@media screen and (max-width: 480px) {
+  .socialHeading {
+    position: relative;
+    /* width: 130px; */
+    height: 24px;
+    left: 35%;
+    top: 82px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b5b5b5;
+  }
+}
+.socialContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  right: 18%;
+  top: 28px;
+}
+@media screen and (max-width: 480px) {
+  .socialContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    right: 35%;
+    top: 73px;
+  }
+}
+@media screen and (min-width: 319px) and (max-width: 375px) {
+  .socialContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    right: 30%;
+    top: 101px;
+  }
+  .socialHeading {
+    position: relative;
+    /* width: 130px; */
+    height: 24px;
+    left: 30%;
+    top: 99px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b5b5b5;
+  }
+}
+@media screen and (max-width: 320px) {
+  .socialContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    right: 30%;
+    top: 101px;
+  }
+  .socialHeading {
+    position: relative;
+    /* width: 130px; */
+    height: 24px;
+    left: 30%;
+    top: 99px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b5b5b5;
+  }
+}
+.socialItem {
+  cursor: pointer;
+}
+
+.salyImage {
+  position: absolute;
+  left: 35%;
+  top: 268px;
+  height: 484px;
+}
+@media screen and (max-width: 768px) {
+  .salyImage {
+    display: none;
+  }
+}
+
+.passwordOneContainer {
+  position: relative;
+}
+#togglePassword1 {
+  position: absolute;
+  right: 0;
+  padding: 3% 8%;
+}
+#togglePassword2 {
+  position: absolute;
+  right: 0;
+  padding: 3% 8%;
+}
+@media screen and (max-width: 480px) {
+  #togglePassword1 {
+    position: absolute;
+    right: 0;
+    padding: 7% 8%;
+  }
+  #togglePassword2 {
+    position: absolute;
+    right: 0;
+    padding: 7% 8%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #togglePassword1 {
+    position: absolute;
+    right: 0;
+    padding: 2% 18%;
+  }
+  #togglePassword2 {
+    position: absolute;
+    right: 0;
+    padding: 2% 18%;
+  }
+  .socialContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    right: 23%;
+    top: 28px;
+  }
+  .socialHeading {
+    left: 68%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  #togglePassword1 {
+    position: absolute;
+    right: -14px;
+    padding: 4% 0%;
+  }
+  #togglePassword2 {
+    position: absolute;
+    right: -14px;
+    padding: 4% 0%;
+  }
+  .socialContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    right: 8%;
+    top: 28px;
+  }
+  .socialHeading {
+    position: relative;
+    width: 130px;
+    height: 24px;
+    left: 75%;
+    top: 27px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b5b5b5;
+  }
+}

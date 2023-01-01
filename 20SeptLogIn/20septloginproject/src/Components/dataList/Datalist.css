@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Poppins:wght@200&family=Sofia&family=Square+Peg&display=swap");
+
+body{margin: auto;}
+.dataListHeading{
+    align-items: center;
+    margin: auto;
+   font-weight: 600;;
+   font-size: 35px;
+line-height: 60px;
+font-family: Poppins;
+ 
+}
+.dataListContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.dataListItem{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* position: relative; */
+    left: 0;
+    font-size: 21px;
+}
+.dataListButton{
+    height: 59px;
+    width: 372px;
+    position: relative;
+    left: 0%;
+    border-radius: 9px;
+    border: none;
+    background: #4d47c3;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    left: 0;
+    cursor: pointer;
+}
+#dataListButton:hover{
+    font-weight: bolder;
+
+}
+
+.dataList{
+    text-align: center;
+    list-style: none;
+    background-color: aliceblue;
+    border: 1px solid #303030;
+    margin: 4px 0;
+    font-size:18px;
+    display: flex;
+    flex-flow: column;
+}
+.dataListItem>span{
+font-size: larger;
+margin:5px ;
+}
+.dataListItem{
+    justify-content: space-evenly;
+    padding: 2.6px;
+}
+
+
+/* :disabled */
+
+button:disabled{
+    background-color: #827fce;
+    cursor: auto;
+}
+input[type="file" ]{
+background: none; 
+}
+/* input:disabled {
+    background: #dddddd;
+  } */
+/* 
+input:file-upload-button{
+    background-color: red;
+} */

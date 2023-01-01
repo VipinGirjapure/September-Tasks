@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+::selection {
+  background-color: white;
+  color: #003b73;
+}
+body::-webkit-scrollbar{
+  background-color:  #bfd7ed ;  
+  width: 10px;
+  /* color: #003b73;   */
+/* color: #bfd7ed ; */
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #003b73;  
+
+}

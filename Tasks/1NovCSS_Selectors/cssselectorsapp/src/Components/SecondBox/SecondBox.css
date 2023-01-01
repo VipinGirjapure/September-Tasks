@@ -1,0 +1,87 @@
+#second-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+
+  flex-wrap: wrap-reverse;
+  background-color: #0074b7;
+}
+.text1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 28px;
+  border: 1px solid #0074b7;
+  border-radius: 20px;
+  padding: 5px 5px;
+  background-color: #bfd7ed;
+  color: #0074b7;
+  box-shadow: 10px 9px 15px #003b73;
+}
+div > h3::first-line {
+  font-size: 30px;
+  color: black !important;
+}
+
+button {
+  background: none;
+  border: none;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+  color: #003b73;
+  border: 1px solid transparent;
+cursor: pointer;
+  animation-name: button-anime;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes button-anime {
+  0% {
+    background-color: #0074b7;
+    color: #bfd7ed;
+  }
+  25% {
+    background-color: #bfd7ed;
+    color: #003b73;
+  }
+  50% {
+    background-color: #0074b7;
+    color: #bfd7ed;
+  }
+  75% {
+    background-color: #bfd7ed;
+    color: #003b73;
+  }
+  100% {
+    background-color: #0074b7;
+    color: #bfd7ed;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .box-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .text1 {
+    height: 100%;
+    width: 100vw;
+
+    border-radius: 0;
+  }
+}

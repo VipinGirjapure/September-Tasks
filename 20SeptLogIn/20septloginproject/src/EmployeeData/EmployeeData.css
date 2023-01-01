@@ -1,0 +1,15 @@
+
+.EmpDataHeaderContainer{
+    background-color: aliceblue;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.EmpDataLogo{
+font-size: 40px;
+}
+.EmpDataSearch{
+    border-radius: 15px;
+    border: 1px solid blueviolet;
+    font-size: 30px;
+}

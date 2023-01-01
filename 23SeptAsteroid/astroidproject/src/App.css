@@ -1,0 +1,21 @@
+body{
+  bottom: #303030;
+}
+.header{
+  height: 7rem;
+}
+.backtohome{
+  height: 37px;
+  width: 126px;
+  background-color: dodgerblue;
+  color: white;
+  align-items: center;
+  margin-top: 54px;
+  border-radius: 23px;
+  border: 0.5px solid deepskyblue;
+  cursor: pointer;
+  margin: auto;
+}
+.backtohome :hover{
+ border: 5px solide black;
+}
